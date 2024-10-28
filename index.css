@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F3F3F3;
+    width: 1120px;
+    margin: auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font: 500 50px DM Sans;
+}
+
+header .right {
+    font: 500 22px DM Sans;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name .left h1 {
+    font: 500 60px DM Sans;
+    color: #181717;
+    width: 480px;
+    height: 116px;
+    margin-top: 153px;
+}
+
+.name .left p {
+    font: 400 24px DM Sans;
+    color: #606060;
+    width: 575px;
+    height: 196px;
+    margin-top: 90px;
+
+
+
+}
+
+.name .left .secp {
+    margin-top: 1px;
+    font: 400 24px DM Sans;
+    color: #606060;
+}
+
+.name .right {
+    width: 458px;
+    height: 450px;
+    background: #606060;
+    margin-top: 153px;
+    margin-left: 129px;
+
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    width: 623px;
+    height: 235px;
+
+
+}
+
+.skill .left h2 {
+    font: 500 22px DM Sans;
+    color: #181717;
+    text-decoration: underline;
+    text-decoration-color: rgb(163, 163, 163);
+}
+
+.skill .left .hard {
+    margin-top: 1px;
+}
+
+.skill .left .soft {
+    margin-top: 143px;
+}
+
+
+.skill .right .hardp {
+    font: 400 20px DM Sans;
+    width: 436px;
+    height: 77px;
+    color: #181717;
+}
+
+.skill .right .softp {
+    font: 400 20px DM Sans;
+    width: 436px;
+    height: 77px;
+    color: #181717;
+    margin-top: 86px;
+
+}
+
+.line {
+
+    border: 1.5px solid;
+    background-color: #181717;
+    margin-top: 110px;
+}
+
+.low {
+    display: flex;
+    justify-content: space-between;
+}
+
+.low .left {
+    display: flex;
+
+}
+
+.low .left h1 {
+    font: 400 32px DM Sans;
+    width: 347px;
+    height: 71px;
+    margin-top: 71px;
+}
+
+.low .left img {
+    width: 21px;
+    height: 24px;
+    margin-left: 41px;
+    margin-top: 79px;
+}
+
+.low .right p {
+    font: 400 32px DM Sans;
+    margin-top: 63px;
+    margin-right: 160px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left {
+    font: 500 22px DM Sans;
+    color: #2429AF;
+    margin-top: 135px;
+
+}
+
+footer .right {
+    display: flex;
+    font: 500 22px DM Sans;
+    margin-top: 135px;
+    gap: 32px;
+}
