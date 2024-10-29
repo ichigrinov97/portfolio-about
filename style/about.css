@@ -25,6 +25,10 @@ header .right {
     gap: 30px;
     align-items: center;
 }
+header .right p a{
+    color: #181717;
+    text-decoration: none;
+}
 
 .name {
     display: flex;

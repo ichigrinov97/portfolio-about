@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F3F3F3;
+    font-family: DM Sans;
+    width: 1120px;
+    color: #181717;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+header .about {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header .about p a {
+    font-size: 22px;
+    font-weight: 500;
+    color: #181717;
+    text-decoration: none;
+}
+
+main h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 109px;
+}
+
+main p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #606060;
+    margin-top: 32px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .left {
+    display: flex;
+    flex-direction: column;
+}
+
+section .left .email {
+    width: 676px;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+    margin-top: 52px;
+    padding-left: 27px;
+}
+
+section .left .number {
+    width: 676px;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+    margin-top: 30px;
+    padding-left: 27px;
+}
+
+button {
+    width: 180px;
+    height: 32px;
+    margin-top: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+section .right {
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 352px;
+    margin-left: 90px;
+}
+
+section .right p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #606060;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 109px;
+}
+
+footer .left {
+    font-size: 22px;
+    font-weight: 500;
+    color: #2429AF;
+
+}
+
+footer .right {
+    display: flex;
+    gap: 32px;
+    font-size: 22px;
+    font-weight: 500;
+
+
+}
